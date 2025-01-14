@@ -2,9 +2,9 @@
   <img src="https://huggingface.co/datasets/huggingface/brand-assets/resolve/main/hf-logo-pirate.png" width="200px" alt="smol blueprint logo">
 </div>
 
-# A smol blueprint project
+# A smol AI deployment blueprint
 
-A smol blueprint project showing a practical example of scraping, RAG, information extraction, analysis and fine-tuning in the age of LLMs. It is a more practical project that strives to apply some of the learning from [the smol-course](https://github.com/huggingface/smol-course) to an end2end real-world problem.
+A smol AI deployment blueprint showing a practical example of scraping, RAG, information extraction, analysis and fine-tuning in the age of LLMs. It is a more practical project that strives to apply some of the learning from [the smol-course](https://github.com/huggingface/smol-course) to an end2end real-world problem.
 
 > 🚀 Ready for production!
 >
@@ -16,11 +16,11 @@ We want to build a tool that can help us use AI on company documents. In reality
 
 - Retrieval Augemented Generation (RAG)
   - [✅ Indexing](./rag/indexing.ipynb) - Indexing a vector search backend
-  - [🚧 Building](./rag/pipeline.ipynb) - Building a RAG pipeline
+  - [🚧 Building](./rag/building.ipynb) - Building a RAG pipeline
   - [🚧 Monitoring](./rag/monitoring.ipynb) - Monitoring and improving your RAG pipeline
   - [🚧 Fine-tuning](./rag/fine_tuning.ipynb) - Fine-tuning retrieval and reranking models
-- Information Extraction
-  - [🚧 Building](./extraction/extraction.ipynb) - Structured information extraction with LLMs
+- Information extraction and labeling
+  - [🚧 Building](./extraction/building.ipynb) - Structured information extraction with LLMs
   - [🚧 Monitoring](./extraction/monitoring.ipynb) - Monitoring extraction quality
   - [🚧 Fine-tuning](./extraction/fine_tuning.ipynb) - Fine-tuning extraction models
 - Agents for orchestration

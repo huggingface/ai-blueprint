@@ -1,7 +1,7 @@
 [project]
-name = "smol-project"
+name = "smol-ai-deployment-blueprint"
 version = "0.1.0"
-description = "A smol project showing a practical example scraping, RAG, information extraction, analysis and fine-tuning in the age of LLMs."
+description = "A smol AI deployment blueprint showing a practical example scraping, RAG, information extraction, analysis and fine-tuning in the age of LLMs."
 readme = "README.md"
 requires-python = ">=3.11"
 dependencies = [
