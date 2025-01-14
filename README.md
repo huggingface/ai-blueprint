@@ -14,18 +14,21 @@ A smol blueprint project showing a practical example of scraping, RAG, informati
 
 We want to build a tool that can help us answer questions about the Hugging Face ecosystem. In reality, this data is nicely structured and available through [Hub API endpoints](https://huggingface.co/docs/hub/en/api), however, we will assume we need to gather data from the Hub blogs website.
 
--  [WIP] Managing a RAG pipeline.
-  - [.ipynb](./rag/indexing.ipynb) - the Hugging Face Hub as a vector search backend.
-  - Creating a RAG pipeline.
-  - Deploying the RAG pipeline to a Hugging Face Space.
-  - Monitoring the RAG pipeline.
-  - Fine-tuning the retrieval and reranking models.
-- [on hold 🛑] Information extraction: Structured information extraction with LLMs.
-  - Extracting structured information from the blogs.
-  - Deploying the information extraction pipeline to a Hugging Face Space.
-  - Monitoring the information extraction pipeline.
-  - Fine-tuning the information extraction models.
-- [on hold 🛑] Agents: Orchestrate interactions with the other components.
+- Managing a RAG pipeline
+  - [✅ Indexing](./rag/indexing.ipynb) - Using the Hugging Face Hub as a vector search backend
+  - [🚧 RAG Pipeline](./rag/pipeline.ipynb) - Building a RAG pipeline with semantic search
+  - [🚧 Deployment](./rag/deployment.ipynb) - Deploying the RAG pipeline to Spaces
+  - [🚧 Monitoring](./rag/monitoring.ipynb) - Monitoring and improving RAG quality
+  - [🚧 Fine-tuning](./rag/fine_tuning.ipynb) - Fine-tuning retrieval and reranking models
+
+- Information Extraction
+  - [🚧 Extraction](./extraction/extraction.ipynb) - Structured information extraction with LLMs
+  - [🚧 Deployment](./extraction/deployment.ipynb) - Deploying extraction to Spaces
+  - [🚧 Monitoring](./extraction/monitoring.ipynb) - Monitoring extraction quality
+  - [🚧 Fine-tuning](./extraction/fine_tuning.ipynb) - Fine-tuning extraction models
+
+- Agents
+  - [🚧 Orchestration](./agents/orchestration.ipynb) - Building agents to coordinate components
 
 # Installation and configuration
 
