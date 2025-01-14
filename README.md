@@ -8,10 +8,19 @@ This is a practical project that strives to apply some of the learning from [the
 
 We want to build a tool that can help us answer questions about the Hugging Face ecosystem. In reality, this data is nicely structured and available through [Hub API endpoints](https://huggingface.co/docs/hub/en/api), however, we will assume we need to gather data from the Hub blogs website.
 
-- Scraping: LLM guided web scraping.
-- RAG: Indexing and optimizing a RAG pipeline.
-- Information extraction: Structured information extraction.
-- Fine-tuning: Fine-tuning predictive and generative models.
+- [WIP 🚧] Scraping: LLM guided web scraping. (can be skipped if you have documents already)
+- [on hold 🛑] RAG: Indexing and optimizing a RAG pipeline.
+  - Indexing an in memory vector database.
+  - Adding retrieval and reranking models.
+  - Deploying the RAG pipeline to a Hugging Face Space.
+  - Monitoring the RAG pipeline.
+  - Fine-tuning the retrieval and reranking models.
+- [on hold 🛑] Information extraction: Structured information extraction with LLMs.
+  - Extracting structured information from the blogs.
+  - Deploying the information extraction pipeline to a Hugging Face Space.
+  - Monitoring the information extraction pipeline.
+  - Fine-tuning the information extraction models.
+- [on hold 🛑] Agents: Orchestrate interactions with the other components.
 
 # Installation and configuration
 
@@ -40,7 +49,7 @@ uv sync information-extraction
 
 ## Hugging Face Account
 
-You will need a Hugging Face account to use the Hub API. You can create one [here](https://huggingface.co/join). After this you can follow the [huggingface-cli instructions](https://huggingface.co/docs/huggingface_hub/installation#huggingface-cli) and log in to configure your token.
+You will need a Hugging Face account to use the Hub API. You can create one [here](https://huggingface.co/join). After this you can follow the [huggingface-cli instructions](https://huggingface.co/docs/huggingface_hub/installation#huggingface-cli) and log in to configure your Hugging Face token.
 
 ```bash
 huggingface-cli login

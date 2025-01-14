@@ -24,3 +24,6 @@ information-extraction = [
     "instructor>=1.7.2",
     "outlines>=0.1.12",
 ]
+agents = [
+    "smolagents>=1.2.2",
+]
