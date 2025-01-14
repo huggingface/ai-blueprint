@@ -2,15 +2,15 @@
   <img src="https://huggingface.co/datasets/huggingface/brand-assets/resolve/main/hf-logo-pirate.png" width="200px" alt="smol blueprint logo">
 </div>
 
-# A smol AI deployment blueprint
+# A smol blueprint
 
-A smol AI deployment blueprint showing a practical example of scraping, RAG, information extraction, analysis and fine-tuning in the age of LLMs. It is a more practical project that strives to apply some of the learning from [the smol-course](https://github.com/huggingface/smol-course) to an end2end real-world problem.
+A smol blueprint for AI development, focusing on practical examples of RAG, information extraction, analysis and fine-tuning in the age of LLMs. It is a more practical approach that strives to apply some of the theoretical learnings from [the smol-course](https://github.com/huggingface/smol-course) as an end2end real-world problem.
 
 > 🚀 Ready for production!
 >
 > Each notebook will show how to deploy your AI tools as an interactive demo on Hugging Face Spaces with Gradio, which you can directly use as microservices through [the Gradio Python Client](https://www.gradio.app/guides/getting-started-with-the-python-client). All the code and demos can be used in a private or public setting.
 
-## The project
+## The blueprint
 
 We want to build a tool that can help us use AI on company documents. In reality, this data is nicely structured and available through [Hub API endpoints](https://huggingface.co/docs/hub/en/api), however, we will assume we need to gather data from the Hub blogs website.
 
