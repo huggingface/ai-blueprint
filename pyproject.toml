@@ -1,0 +1,26 @@
+[project]
+name = "smol-project"
+version = "0.1.0"
+description = "A smol project showing a practical example scraping, RAG, information extraction, analysis and fine-tuning in the age of LLMs."
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "gradio>=5.12.0",
+    "huggingface-hub[cli]>=0.27.1",
+    "torch>=2.5.1",
+    "transformers>=4.48.0",
+]
+
+[dependency-groups]
+scraping = [
+    "scrapegraphai>=1.36.0",
+]
+rag = [
+    "model2vec>=0.3.5",
+    "sentence-transformers>=3.3.1",
+    "vicinity>=0.4.0",
+]
+information-extraction = [
+    "instructor>=1.7.2",
+    "outlines>=0.1.12",
+]
