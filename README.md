@@ -4,30 +4,26 @@
 
 # A smol blueprint project
 
-A smol blueprint project showing a practical example of scraping, RAG, information extraction, analysis and fine-tuning in the age of LLMs. It is a more practical project that strives to apply    some of the learning from [the smol-course](https://github.com/huggingface/smol-course) to an end2end real-world problem.
+A smol blueprint project showing a practical example of scraping, RAG, information extraction, analysis and fine-tuning in the age of LLMs. It is a more practical project that strives to apply some of the learning from [the smol-course](https://github.com/huggingface/smol-course) to an end2end real-world problem.
 
 > 🚀 Ready for production!
 >
-> Each notebook will show how to deploy your AI tools as an interactivedemo on Hugging Face Spaces with Gradio, which you can directly use as microservices through [the Gradio Python Client](https://www.gradio.app/guides/getting-started-with-the-python-client).
+> Each notebook will show how to deploy your AI tools as an interactive demo on Hugging Face Spaces with Gradio, which you can directly use as microservices through [the Gradio Python Client](https://www.gradio.app/guides/getting-started-with-the-python-client). All the code and demos can be used in a private or public setting.
 
-## The problem
+## The project
 
-We want to build a tool that can help us answer questions about the Hugging Face ecosystem. In reality, this data is nicely structured and available through [Hub API endpoints](https://huggingface.co/docs/hub/en/api), however, we will assume we need to gather data from the Hub blogs website.
+We want to build a tool that can help us use AI on company documents. In reality, this data is nicely structured and available through [Hub API endpoints](https://huggingface.co/docs/hub/en/api), however, we will assume we need to gather data from the Hub blogs website.
 
-- Managing a RAG pipeline
-  - [✅ Indexing](./rag/indexing.ipynb) - Using the Hugging Face Hub as a vector search backend
-  - [🚧 RAG Pipeline](./rag/pipeline.ipynb) - Building a RAG pipeline with semantic search
-  - [🚧 Deployment](./rag/deployment.ipynb) - Deploying the RAG pipeline to Spaces
-  - [🚧 Monitoring](./rag/monitoring.ipynb) - Monitoring and improving RAG quality
+- Retrieval Augemented Generation (RAG)
+  - [✅ Indexing](./rag/indexing.ipynb) - Indexing a vector search backend
+  - [🚧 Building](./rag/pipeline.ipynb) - Building a RAG pipeline
+  - [🚧 Monitoring](./rag/monitoring.ipynb) - Monitoring and improving your RAG pipeline
   - [🚧 Fine-tuning](./rag/fine_tuning.ipynb) - Fine-tuning retrieval and reranking models
-
 - Information Extraction
-  - [🚧 Extraction](./extraction/extraction.ipynb) - Structured information extraction with LLMs
-  - [🚧 Deployment](./extraction/deployment.ipynb) - Deploying extraction to Spaces
+  - [🚧 Building](./extraction/extraction.ipynb) - Structured information extraction with LLMs
   - [🚧 Monitoring](./extraction/monitoring.ipynb) - Monitoring extraction quality
   - [🚧 Fine-tuning](./extraction/fine_tuning.ipynb) - Fine-tuning extraction models
-
-- Agents
+- Agents for orchestration
   - [🚧 Orchestration](./agents/orchestration.ipynb) - Building agents to coordinate components
 
 # Installation and configuration
