@@ -1,17 +1,22 @@
-# a smol blueprint project
+<div align="center">
+  <img src="https://huggingface.co/datasets/huggingface/brand-assets/resolve/main/hf-logo-pirate.png" width="200px" alt="smol blueprint logo">
+</div>
 
-A smol blueprint project showing a practical example scraping, RAG, information extraction, analysis and fine-tuning in the age of LLMs.
+# A smol blueprint project
 
-This is a practical project that strives to apply some of the learning from [the smol-course](https://github.com/huggingface/smol-course) to an end2end real-world problem.
+A smol blueprint project showing a practical example of scraping, RAG, information extraction, analysis and fine-tuning in the age of LLMs. It is a more practical project that strives to apply    some of the learning from [the smol-course](https://github.com/huggingface/smol-course) to an end2end real-world problem.
+
+> 🚀 Ready for smol production!
+>
+> Each notebook will show how to deploy your AI tools as an interactivedemo on Hugging Face Spaces with Gradio, which you can directly use as microservices through [the Gradio Python Client](https://www.gradio.app/guides/getting-started-with-the-python-client).
 
 ## The problem
 
 We want to build a tool that can help us answer questions about the Hugging Face ecosystem. In reality, this data is nicely structured and available through [Hub API endpoints](https://huggingface.co/docs/hub/en/api), however, we will assume we need to gather data from the Hub blogs website.
 
-- [WIP 🚧] Scraping: LLM guided web scraping. (can be skipped if you have documents already)
-- [on hold 🛑] RAG: Indexing and optimizing a RAG pipeline.
-  - Indexing an in memory vector database.
-  - Adding retrieval and reranking models.
+-  [WIP] Managing a RAG pipeline.
+  - [.ipynb](./rag/indexing.ipynb) - the Hugging Face Hub as a vector search backend.
+  - Creating a RAG pipeline.
   - Deploying the RAG pipeline to a Hugging Face Space.
   - Monitoring the RAG pipeline.
   - Fine-tuning the retrieval and reranking models.
