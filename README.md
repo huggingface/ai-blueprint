@@ -6,7 +6,7 @@
 
 A smol blueprint project showing a practical example of scraping, RAG, information extraction, analysis and fine-tuning in the age of LLMs. It is a more practical project that strives to apply    some of the learning from [the smol-course](https://github.com/huggingface/smol-course) to an end2end real-world problem.
 
-> 🚀 Ready for smol production!
+> 🚀 Ready for production!
 >
 > Each notebook will show how to deploy your AI tools as an interactivedemo on Hugging Face Spaces with Gradio, which you can directly use as microservices through [the Gradio Python Client](https://www.gradio.app/guides/getting-started-with-the-python-client).
 
