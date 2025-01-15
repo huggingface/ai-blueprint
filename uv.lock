@@ -934,6 +934,16 @@ wheels = [
 ]
 
 [[package]]
+name = "hnswlib"
+version = "0.8.0"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "numpy", version = "1.26.4", source = { registry = "https://pypi.org/simple" }, marker = "python_full_version < '3.12'" },
+    { name = "numpy", version = "2.2.1", source = { registry = "https://pypi.org/simple" }, marker = "python_full_version >= '3.12'" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/cf/7a/1a9b1405f2eb59515f06c3074750b03e0e96edf7fee0f6dd6df81d9c21d7/hnswlib-0.8.0.tar.gz", hash = "sha256:cb6d037eedebb34a7134e7dc78966441dfd04c9cf5ee93911be911ced951c44c", size = 36206 }
+
+[[package]]
 name = "html2text"
 version = "2024.2.26"
 source = { registry = "https://pypi.org/simple" }
@@ -1834,6 +1844,26 @@ source = { registry = "https://pypi.org/simple" }
 sdist = { url = "https://files.pythonhosted.org/packages/79/6e/96fc7cb3288666c5de2c396eb0e338dc95f7a8e4920e43e38783a22d0084/mistune-3.1.0.tar.gz", hash = "sha256:dbcac2f78292b9dc066cd03b7a3a26b62d85f8159f2ea5fd28e55df79908d667", size = 94401 }
 wheels = [
     { url = "https://files.pythonhosted.org/packages/b4/b3/743ffc3f59da380da504d84ccd1faf9a857a1445991ff19bf2ec754163c2/mistune-3.1.0-py3-none-any.whl", hash = "sha256:b05198cf6d671b3deba6c87ec6cf0d4eb7b72c524636eddb6dbf13823b52cee1", size = 53694 },
+]
+
+[[package]]
+name = "model2vec"
+version = "0.3.5"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "jinja2" },
+    { name = "joblib" },
+    { name = "numpy", version = "1.26.4", source = { registry = "https://pypi.org/simple" }, marker = "python_full_version < '3.12'" },
+    { name = "numpy", version = "2.2.1", source = { registry = "https://pypi.org/simple" }, marker = "python_full_version >= '3.12'" },
+    { name = "rich" },
+    { name = "safetensors" },
+    { name = "setuptools" },
+    { name = "tokenizers" },
+    { name = "tqdm" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/5b/0a/8b7874ca692e7d1eabb7b723d87309914b5f2a251945d21fcfa3f242dbd4/model2vec-0.3.5.tar.gz", hash = "sha256:437b13febcffac6d12ea50baa96f4e166f01e1dc487508d75a4a61e2774aa02e", size = 2305705 }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/02/4d/b04cb7c65910ec5b224d56323376753220cc1a81015f084b913df6af2c50/model2vec-0.3.5-py3-none-any.whl", hash = "sha256:f6596dc0660c4bffa492cbd8445b1925b6bda04c12b7c4cc825d195325322748", size = 27515 },
 ]
 
 [[package]]
@@ -3498,7 +3528,9 @@ information-extraction = [
 rag = [
     { name = "duckdb" },
     { name = "markdown" },
+    { name = "model2vec" },
     { name = "sentence-transformers" },
+    { name = "vicinity", extra = ["hnsw"] },
 ]
 scraping = [
     { name = "scrapegraphai" },
@@ -3529,7 +3561,9 @@ information-extraction = [
 rag = [
     { name = "duckdb", specifier = ">=1.1.3" },
     { name = "markdown", specifier = ">=3.7" },
+    { name = "model2vec", specifier = ">=0.3.5" },
     { name = "sentence-transformers", specifier = ">=3.3.1" },
+    { name = "vicinity", extras = ["hnsw"], specifier = ">=0.4.0" },
 ]
 scraping = [{ name = "scrapegraphai", specifier = ">=1.36.0" }]
 
@@ -3964,6 +3998,26 @@ dependencies = [
 sdist = { url = "https://files.pythonhosted.org/packages/4b/4d/938bd85e5bf2edeec766267a5015ad969730bb91e31b44021dfe8b22df6c/uvicorn-0.34.0.tar.gz", hash = "sha256:404051050cd7e905de2c9a7e61790943440b3416f49cb409f965d9dcd0fa73e9", size = 76568 }
 wheels = [
     { url = "https://files.pythonhosted.org/packages/61/14/33a3a1352cfa71812a3a21e8c9bfb83f60b0011f5e36f2b1399d51928209/uvicorn-0.34.0-py3-none-any.whl", hash = "sha256:023dc038422502fa28a09c7a30bf2b6991512da7dcdb8fd35fe57cfc154126f4", size = 62315 },
+]
+
+[[package]]
+name = "vicinity"
+version = "0.4.0"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "numpy", version = "1.26.4", source = { registry = "https://pypi.org/simple" }, marker = "python_full_version < '3.12'" },
+    { name = "numpy", version = "2.2.1", source = { registry = "https://pypi.org/simple" }, marker = "python_full_version >= '3.12'" },
+    { name = "orjson" },
+    { name = "tqdm" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/05/58/70cc16d8530e123dbfd5f5debc9664f104244803d3f613fd28572bd883c7/vicinity-0.4.0.tar.gz", hash = "sha256:93130eafed2acfede1f980927e371f675705e6cb79c66f01c8a159da791ede2a", size = 1546223 }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/84/6b/5621cf995e6fab253f7d1988ef02873db91318778005b9a04d2b5f42183a/vicinity-0.4.0-py3-none-any.whl", hash = "sha256:4c13532589e3a4906479015253e424c162345e441c43385ae2865791ccd4dd88", size = 25990 },
+]
+
+[package.optional-dependencies]
+hnsw = [
+    { name = "hnswlib" },
 ]
 
 [[package]]
