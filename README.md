@@ -16,7 +16,7 @@ We want to build a tool that can help us use AI on company documents. In our cas
 
 - Retrieval Augemented Generation (RAG)
   - [✅ Indexing](./rag/indexing.ipynb) - Indexing a vector search backend
-  - [🚧 Building](./rag/building.ipynb) - Building a RAG pipeline
+  - [✅ Building](./rag/building.ipynb) - Building a RAG pipeline
   - [🚧 Monitoring](./rag/monitoring.ipynb) - Monitoring and improving your RAG pipeline
   - [🚧 Fine-tuning](./rag/fine_tuning.ipynb) - Fine-tuning retrieval and reranking models
 - Information extraction and labeling
