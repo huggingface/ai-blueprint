@@ -1,7 +1,7 @@
 [project]
 name = "smol-blueprint"
 version = "0.1.0"
-description = "A smol blueprint for AI development, focusing on practical examples of RAG, information extraction, analysis and fine-tuning in the age of LLMs."
+description = "A smol blueprint for AI development, focusing on applied examples of RAG, information extraction, analysis and fine-tuning in the age of LLMs."
 readme = "README.md"
 requires-python = ">=3.11"
 dependencies = [

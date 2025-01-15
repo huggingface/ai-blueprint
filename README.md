@@ -4,7 +4,7 @@
 
 # A smol blueprint
 
-A smol blueprint for AI development, focusing on practical examples of RAG, information extraction, analysis and fine-tuning in the age of LLMs. It is a more practical approach that strives to show the application of some of the theoretical learnings from [the smol-course](https://github.com/huggingface/smol-course) as an end2end real-world problem.
+A smol blueprint for AI development, focusing on applied examples of RAG, information extraction, analysis and fine-tuning in the age of LLMs. It is a more practical approach that strives to show the application of some of the theoretical learnings from [the smol-course](https://github.com/huggingface/smol-course) as an end2end real-world problem.
 
 > 🚀 Web apps and microservices included!
 >
