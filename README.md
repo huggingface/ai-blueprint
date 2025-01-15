@@ -12,7 +12,7 @@ A smol blueprint for AI development, focusing on practical examples of RAG, info
 
 ## The blueprint
 
-We want to build a tool that can help us use AI on company documents. In reality, this data is nicely structured and available through [Hub API endpoints](https://huggingface.co/docs/hub/en/api), however, we will assume we need to gather data from the Hub blogs website.
+We want to build a tool that can help us use AI on company documents. In our case, we will be working with the [smol-blueprint/hf-blogs](https://huggingface.co/datasets/smol-blueprint/hf-blogs) dataset, which is a dataset that contains the blogs from the Hugging Face website.
 
 - Retrieval Augemented Generation (RAG)
   - [✅ Indexing](./rag/indexing.ipynb) - Indexing a vector search backend
