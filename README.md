@@ -4,7 +4,7 @@
 
 # A smol blueprint
 
-A smol blueprint for AI development, focusing on practical examples of RAG, information extraction, analysis and fine-tuning in the age of LLMs. It is a more practical approach that strives to show the application of some of the theoretical learnings from [the smol-course](https://github.com/huggingface/smol-course) as an end2end real-world problem.
+A smol blueprint for AI development, focusing on applied examples of RAG, information extraction, analysis and fine-tuning in the age of LLMs. It is a more practical approach that strives to show the application of some of the theoretical learnings from [the smol-course](https://github.com/huggingface/smol-course) as an end2end real-world problem.
 
 > 🚀 Web apps and microservices included!
 >
@@ -16,7 +16,7 @@ We want to build a tool that can help us use AI on company documents. In our cas
 
 - Retrieval Augemented Generation (RAG)
   - [✅ Indexing](./rag/indexing.ipynb) - Indexing a vector search backend
-  - [🚧 Building](./rag/building.ipynb) - Building a RAG pipeline
+  - [✅ Building](./rag/building.ipynb) - Building a RAG pipeline
   - [🚧 Monitoring](./rag/monitoring.ipynb) - Monitoring and improving your RAG pipeline
   - [🚧 Fine-tuning](./rag/fine_tuning.ipynb) - Fine-tuning retrieval and reranking models
 - Information extraction and labeling
