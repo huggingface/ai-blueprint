@@ -14,17 +14,32 @@ A smol blueprint for AI development, focusing on applied examples of RAG, inform
 
 We want to build a tool that can help us use AI on company documents. In our case, we will be working with the [smol-blueprint/hf-blogs](https://huggingface.co/datasets/smol-blueprint/hf-blogs) dataset, which is a dataset that contains the blogs from the Hugging Face website.
 
-- Retrieval Augemented Generation (RAG)
-  - [✅ Indexing](./rag/indexing.ipynb) - Indexing a vector search backend
-  - [✅ Building](./rag/building.ipynb) - Building a RAG pipeline
-  - [🚧 Monitoring](./rag/monitoring.ipynb) - Monitoring and improving your RAG pipeline
-  - [🚧 Fine-tuning](./rag/fine_tuning.ipynb) - Fine-tuning retrieval and reranking models
-- Information extraction and labeling
-  - [🚧 Building](./extraction/building.ipynb) - Structured information extraction with LLMs
-  - [🚧 Monitoring](./extraction/monitoring.ipynb) - Monitoring extraction quality
-  - [🚧 Fine-tuning](./extraction/fine_tuning.ipynb) - Fine-tuning extraction models
-- Agents for orchestration
-  - [🚧 Orchestration](./agents/orchestration.ipynb) - Building agents to coordinate components
+### RAG
+
+All notebooks for RAG can be found in the [RAG directory](./rag) and all artifacts can be found in the [RAG collection on the Hub](https://huggingface.co/collections/smol-blueprint/retrieval-augemented-generation-rag-67877d7b69178ec7760e2862).
+
+| Status | Notebook | Artifact | Title |
+|---------|----------|-----------|-------|
+| ✅ | [Retrieve](./rag/retrieve.ipynb) | Data - Gradio | Retrieve documents from a vector database |
+| ✅ | [Augment](./rag/augment.ipynb) | Gradio | Augment retrieval results by reranking |
+| ✅ | [Generate](./rag/generating.ipynb) | Gradio | Generating a response based on query and context |
+| ✅ | [RAG](./rag/rag.ipynb) | Gradio | Combine all the components in a RAG pipeline |
+| 🚧 | [Monitoring](./rag/monitoring.ipynb) | Data - Gradio | Monitoring and improving your pipeline |
+| 🚧 | [Fine-tuning](./rag/fine_tuning.ipynb) | Model| Fine-tuning retrieval and reranking models |
+
+### Information Extraction
+
+| Status | Notebook | Artifact | Title |
+|---------|----------|-----------|-------|
+| 🚧 | [Building](./extraction/building.ipynb) | Extractor | Structured information extraction with LLMs |
+| 🚧 | [Monitoring](./extraction/monitoring.ipynb) | Analytics | Monitoring extraction quality |
+| 🚧 | [Fine-tuning](./extraction/fine_tuning.ipynb) | Models | Fine-tuning extraction models |
+
+### Agents
+
+| Status | Notebook | Artifact | Title |
+|---------|----------|-----------|-------|
+| 🚧 | [Orchestration](./agents/orchestration.ipynb) | Orchestrator | Building agents to coordinate components |
 
 # Installation and configuration
 
