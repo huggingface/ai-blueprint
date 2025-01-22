@@ -26,6 +26,7 @@ All notebooks for RAG can be found in the [RAG directory](./rag) and all artifac
 | ✅ | [Pipeline](./rag/pipeline.ipynb) | [API](https://ai-blueprint-rag-pipeline.hf.space/?view=api) | Combine all the components in a RAG pipeline |
 | 🚧 | [Monitoring](./rag/monitoring.ipynb) | Data | Monitoring and improving your pipeline |
 | 🚧 | [Fine-tuning](./rag/fine_tuning.ipynb) | Models (retrieval and reranking) | Fine-tuning retrieval and reranking models |
+| 🚧 | [Agentic RAG](./agents/rag.ipynb) | API | Building agents to coordinate components |
 
 ### Information Extraction and labelling
 
@@ -35,13 +36,7 @@ All notebooks for RAG can be found in the [RAG directory](./rag) and all artifac
 | 🚧 | [Labeling](./extraction/monitoring.ipynb) | API - Data | Labeling text for text classification and entity extraction |
 | 🚧 | [Information Extraction](./extraction/monitoring.ipynb) | API - Data | Extract structured information from unstructured text |
 | 🚧 | [Fine-tuning](./extraction/fine_tuning.ipynb) | Models | Fine-tuning text classification and entity extraction models |
-
-### Agents
-
-| Status | Notebook | Artifact | Title |
-|---------|----------|-----------|-------|
-| 🚧 | [Agentic RAG](./agents/rag.ipynb) | API | Building agents to coordinate components |
-| 🚧 | [Agentic Extraction](./agents/extraction.ipynb) | API | Building agents to coordinate components |
+| 🚧 | [Agentic Extraction and Labeling](./agents/extraction.ipynb) | API | Building agents to coordinate components |
 
 # Installation and configuration
 
