@@ -45,12 +45,26 @@ All notebooks for RAG can be found in the [RAG directory](./rag) and all artifac
 
 ### Information Extraction and labelling
 
+Information Extraction (IE) is the process of extracting structured information from unstructured text. It involves identifying and extracting specific pieces of information, such as names, dates, numbers, and other data points, and organizing them into a structured format. Labeling is the process of annotating the extracted information with metadata, such as entity type, category, or sentiments.
+
+#### Some use cases
+
+- Extract customer names, addresses, and purchase amounts from invoices
+- Automatically tag emails with categories like "spam" or "important"
+- Extract dates, times, and locations from meeting notes
+- Identify and extract entities like people, organizations, and locations from text
+- Determine relationships between entities like person-organization connections
+- Extract numerical values and units from scientific papers
+- Extract product names, prices, and descriptions from online reviews
+
+#### How to do IE?
+
 | Status | Notebook | Artifact | Title |
 |---------|----------|-----------|-------|
-| 🚧 | [Structured Generation](./extraction/building.ipynb) | API | Structured generation using a SmolLM |
-| 🚧 | [Labeling](./extraction/monitoring.ipynb) | API - Data | Labeling text for text classification and entity extraction |
-| 🚧 | [Information Extraction](./extraction/monitoring.ipynb) | API - Data | Extract structured information from unstructured text |
-| 🚧 | [Fine-tuning](./extraction/fine_tuning.ipynb) | Models | Fine-tuning text classification and entity extraction models |
+| 🚧 | [Labeling for classification](./extraction/classification.ipynb) | API - Data | Labeling text for text classification and entity extraction |
+| 🚧 | [Labeling for entity extraction](./extraction/entity_extraction.ipynb) | API - Data | Labeling text for text classification and entity extraction |
+| 🚧 | [Structured Generation](./extraction/building.ipynb) | API | Structured generation using an LLM |
+| 🚧 | [Information Extraction](./extraction/extraction.ipynb) | API - Data | Extract structured information from unstructured text |
 | 🚧 | [Agentic Extraction and Labeling](./agents/extraction.ipynb) | API | Building agents to coordinate components |
 
 # Installation and configuration
