@@ -4,17 +4,32 @@
 
 # AI blueprint
 
-A blueprint for AI development, focusing on applied examples of RAG, information extraction, analysis and fine-tuning in the age of LLMs. It is a more practical approach that strives to show the application of some of the theoretical learnings from [the smol-course](https://github.com/huggingface/smol-course) as an end2end real-world problem.
+A blueprint for AI development, focusing on applied examples of RAG, information extraction, analysis and fine-tuning in the age of LLMs. It is a more practical approach that strives to show the application of some of the more theoretical learnings from [the smol-course](https://github.com/huggingface/smol-course) and apply them to an end2end real-world example.
 
 > 🚀 Web apps and microservices included!
 >
 > Each notebook will show how to deploy your AI as a [webapp on Hugging Face Spaces with Gradio](https://huggingface.co/docs/hub/en/spaces-sdks-gradio), which you can directly use as microservices through [the Gradio Python Client](https://www.gradio.app/guides/getting-started-with-the-python-client). All the code and demos can be used in a private or public setting. [Deployed on the Hub!](https://huggingface.co/ai-blueprint)
 
-## The blueprint
+## The problem statement
 
-We want to build a tool that can help us use AI on company documents. In our case, we will be working with the [ai-blueprint/fineweb-bbc-news](https://huggingface.co/datasets/ai-blueprint/fineweb-bbc-news) dataset, which is a dataset that contains the blogs from the Hugging Face website.
+We are a company want to build tools that can help us use AI but we are **not sure where to start**, let alone how to get things done. We only know that **we have a lot of valuable data** which that AI could help us get more value, so we have uploaded them to [ai-blueprint/fineweb-bbc-news](https://huggingface.co/datasets/ai-blueprint/fineweb-bbc-news) on the Hugging Face Hub and want to use it to start building our tools.
+
+> Hugging Manager: "Our goal is to start with a simple baseline and then iterate from there."
 
 ### Retrieval Augmented Generation (RAG)
+
+RAG (Retrieval Augmented Generation) is a technique that helps AI give better answers by first finding and using relevant information from your documents. Think of it like giving an AI assistant access to your company's knowledge base before asking it questions - this helps it provide more accurate and factual responses based on your actual data.
+
+#### Some use cases
+
+- Ask questions like "What was our Q4 revenue?" and get answers backed by financial reports
+- Search with natural queries like "Show me customer complaints about shipping delays"
+- Get AI responses that cite specific policies from your employee handbook
+- Ensure accuracy by having AI reference your product documentation when answering technical questions
+- Automatically incorporate new sales data and market reports into AI responses
+- Build customer service bots that know your exact return policies and procedures
+
+#### How to do RAG?
 
 All notebooks for RAG can be found in the [RAG directory](./rag) and all artifacts can be found in the [RAG collection on the Hub](https://huggingface.co/collections/ai-blueprint/retrieval-augemented-generation-rag-6790c9f597b02c043cfbf7af).
 
