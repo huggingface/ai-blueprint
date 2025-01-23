@@ -39,7 +39,7 @@ All notebooks for RAG can be found in the [RAG directory](./rag) and all artifac
 |---------|----------|-----------|-------|
 | ✅ | [Retrieve](./rag/retrieve.ipynb) | [Data](https://huggingface.co/datasets/ai-blueprint/fineweb-bbc-news-text-embeddings) - [API](https://ai-blueprint-rag-retrieve.hf.space/?view=api) | Retrieve documents from a vector database |
 | ✅ | [Augment](./rag/augment.ipynb) | [API](https://ai-blueprint-rag-augment.hf.space/?view=api) | Augment retrieval results by reranking |
-| 🚧 | [Generate](./rag/generate.ipynb) | API | Generating responses with a SmolLM |
+| ✅ | [Generate](./rag/generate.ipynb) | [API](https://huggingface.co/spaces/ai-blueprint/rag-generate) | Generating responses with a SmolLM |
 | 🚧 | [Pipeline](./rag/pipeline.ipynb) | API | Combine all the components in a RAG pipeline |
 | 🚧 | [Monitoring](./rag/monitoring.ipynb) | Data | Monitoring and improving your pipeline |
 | 🚧 | [Fine-tuning](./rag/fine_tuning.ipynb) | Models (retrieval and reranking) | Fine-tuning retrieval and reranking models |
