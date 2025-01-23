@@ -4,7 +4,7 @@
 
 # AI blueprint
 
-A blueprint for AI development, focusing on applied examples of RAG, information extraction, analysis and fine-tuning in the age of LLMs. It is a more practical approach that strives to show the application of some of the more theoretical learnings from [the smol-course](https://github.com/huggingface/smol-course) and apply them to an end2end real-world example.
+A blueprint for AI development, focusing on applied examples of RAG, information extraction, and more in the age of LLMs and agents. It is a practical approach that strives to show the application of some of the more theoretical learnings from [the smol-course](https://github.com/huggingface/smol-course) and apply them to an end2end real-world example.
 
 > 🚀 Web apps and microservices included!
 >
@@ -12,13 +12,15 @@ A blueprint for AI development, focusing on applied examples of RAG, information
 
 ## The problem statement
 
-We are a company want to build tools that can help us use AI but we are **not sure where to start**, let alone how to get things done. We only know that **we have a lot of valuable data** which that AI could help us get more value, so we have uploaded them to [ai-blueprint/fineweb-bbc-news](https://huggingface.co/datasets/ai-blueprint/fineweb-bbc-news) on the Hugging Face Hub and want to use it to start building our tools.
+We are a company want to build AI tools but we are **not sure where to start**, let alone how to get things done. We only know that **we have a lot of valuable data** and that AI could help us get more value out of it. We have uploaded them to [ai-blueprint/fineweb-bbc-news](https://huggingface.co/datasets/ai-blueprint/fineweb-bbc-news) on the Hugging Face Hub and want to use it to start building our AI stack.
 
-> Hugging Manager: "Our goal is to start with a simple baseline and then iterate from there."
+> Hugging Manager: "Establish a baseline and iterate from there!"
 
 ### Retrieval Augmented Generation (RAG)
 
 RAG (Retrieval Augmented Generation) is a technique that helps AI give better answers by first finding and using relevant information from your documents. Think of it like giving an AI assistant access to your company's knowledge base before asking it questions - this helps it provide more accurate and factual responses based on your actual data.
+
+![RAG](./assets/rag/rag.png)
 
 #### Some use cases
 
