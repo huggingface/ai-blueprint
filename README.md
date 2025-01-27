@@ -14,7 +14,7 @@ A blueprint for AI development, focusing on applied examples of RAG, information
 
 We are a company want to build AI tools but we are **not sure where to start**, let alone how to get things done. We only know that **we have a lot of valuable data** and that AI could help us get more value out of it. We have uploaded them to [ai-blueprint/fineweb-bbc-news](https://huggingface.co/datasets/ai-blueprint/fineweb-bbc-news) on the Hugging Face Hub and want to use it to start building our AI stack.
 
-> Hugging Manager: "Establish a baseline and iterate from there!"
+> Manager: "Establish a simple baseline and iterate from there!"
 
 ### Retrieval Augmented Generation (RAG)
 
@@ -22,7 +22,8 @@ RAG (Retrieval Augmented Generation) is a technique that helps AI give better an
 
 ![RAG](./assets/rag/rag.png)
 
-#### Some use cases
+<details>
+<summary>Common use cases</summary>
 
 - Ask questions like "What was our Q4 revenue?" and get answers backed by financial reports
 - Search with natural queries like "Show me customer complaints about shipping delays"
@@ -31,7 +32,7 @@ RAG (Retrieval Augmented Generation) is a technique that helps AI give better an
 - Automatically incorporate new sales data and market reports into AI responses
 - Build customer service bots that know your exact return policies and procedures
 
-#### How to do RAG?
+</details>
 
 All notebooks for RAG can be found in the [RAG directory](./rag) and all artifacts can be found in the [RAG collection on the Hub](https://huggingface.co/collections/ai-blueprint/retrieval-augemented-generation-rag-6790c9f597b02c043cfbf7af).
 
@@ -40,15 +41,16 @@ All notebooks for RAG can be found in the [RAG directory](./rag) and all artifac
 | ✅ | [Retrieve](./rag/retrieve.ipynb) | [Data](https://huggingface.co/datasets/ai-blueprint/fineweb-bbc-news-text-embeddings) - [API](https://ai-blueprint-rag-retrieve.hf.space/?view=api) | Retrieve documents from a vector database |
 | ✅ | [Augment](./rag/augment.ipynb) | [API](https://ai-blueprint-rag-augment.hf.space/?view=api) | Augment retrieval results by reranking |
 | ✅ | [Generate](./rag/generate.ipynb) | [API](https://huggingface.co/spaces/ai-blueprint/rag-generate) | Generate responses using a SmolLM |
-| 🚧 | [Pipeline](./rag/pipeline.ipynb) | API | Combine all the components in a RAG pipeline |
-| 🚧 | [Agentic RAG](./agents/rag.ipynb) | API - Data | Building agents to coordinate components |
+| ✅ | [Pipeline](./rag/pipeline.ipynb) | [API](https://huggingface.co/spaces/ai-blueprint/rag-pipeline) | Combine retrieve, augment, and generate APIs in a single pipeline |
+| 🚧 | [Agentic RAG](./agents/rag.ipynb) | API - Data | Building agents to coordinate RAG tools |
 | 🚧 | [Fine-tuning](./rag/fine_tuning.ipynb) | Models (retrieval and reranking) | Fine-tuning retrieval and reranking models |
 
 ### Information Extraction and labelling
 
 Information Extraction (IE) is the process of extracting structured information from unstructured text. It involves identifying and extracting specific pieces of information, such as names, dates, numbers, and other data points, and organizing them into a structured format. Labeling is the process of annotating the extracted information with metadata, such as entity type, category, or sentiments.
 
-#### Some use cases
+<details>
+<summary>Common use cases</summary>
 
 - Extract customer names, addresses, and purchase amounts from invoices
 - Automatically tag emails with categories like "spam" or "important"
@@ -58,13 +60,13 @@ Information Extraction (IE) is the process of extracting structured information 
 - Extract numerical values and units from scientific papers
 - Extract product names, prices, and descriptions from online reviews
 
-#### How to do IE?
+</details>
 
 | Status | Notebook | Artifact | Title |
 |---------|----------|-----------|-------|
-| 🚧 | [Labeling for classification](./extraction/classification.ipynb) | API - Data | Labeling text for text classification and entity extraction |
-| 🚧 | [Labeling for entity extraction](./extraction/entity_extraction.ipynb) | API - Data | Labeling text for text classification and entity extraction |
-| 🚧 | [Structured Generation](./extraction/building.ipynb) | API | Structured generation using an LLM |
+| 🚧 | [Classifying text](./extraction/classification.ipynb) | API - Data | Classifying text |
+| 🚧 | [Extracting entities](./extraction/entity_extraction.ipynb) | API - Data | Extracting entities from text |
+| 🚧 | [Structured generation](./extraction/building.ipynb) | API | Structured generation using an LLM |
 | 🚧 | [Information Extraction](./extraction/extraction.ipynb) | API - Data | Extract structured information from unstructured text |
 | 🚧 | [Agentic Extraction and Labeling](./agents/extraction.ipynb) | API | Building agents to coordinate components |
 
@@ -88,7 +90,6 @@ uv sync --all-groups
 Or you can sync between different dependency groups:
 
 ```bash
-uv sync scraping
 uv sync rag
 uv sync information-extraction
 ```

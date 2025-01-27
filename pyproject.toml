@@ -17,12 +17,10 @@ dependencies = [
     "markdown>=3.7",
     "torch>=2.5.1",
     "transformers>=4.48.0",
+    "smolagents>=1.2.2",
 ]
 
 [dependency-groups]
-scraping = [
-    "scrapegraphai>=1.36.0",
-]
 rag = [
     "accelerate>=1.2.1",
     "duckdb>=1.1.3",
@@ -36,7 +34,4 @@ rag = [
 information-extraction = [
     "instructor>=1.7.2",
     "outlines>=0.1.12",
-]
-agents = [
-    "smolagents>=1.2.2",
 ]
